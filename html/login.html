@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>客户登录</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/login_in.css">
+    <link rel="stylesheet" href="../icon/login/iconfont.css">
+    <link rel="stylesheet" href="../icon/header/iconfont.css">
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="../js/login.js"></script>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>
+                <a href="./index.html"><span class="iconfont">&#xe62d;</span></a>
+            </li>
+            <li>
+                <a href="index.html"><img src="../images/diorLogo.jpg"></a>
+            </li>
+            <li>
+                <button>
+                    <a href="./login.html"></a><span class="iconfont">&#xe66b;</span>
+                </button>
+                <button>
+                    <a href="./shoppingcar.html"><span class="iconfont">&#xe604;</span></a>
+                </button>
+            </li>
+        </ul>
+    </header>
+
+    <section id="login_title">
+        <div class="title">
+            <h1>登录或创建帐户</h1>
+        </div>
+        <div id="wrapper" class="login-page">
+            <div id="login_form" class="form">
+                <form class="register-form">
+                    <input type="text" placeholder="用户名" value="admin" id="r_user_name" />
+                    <input type="password" placeholder="密码" id="r_password" />
+                    <input type="text" placeholder="电子邮件" id="r_emial" />
+                    <button id="create">创建账户</button>
+                    <p class="message">已经有了一个账户? <a href="./login.html">立即登录</a></p>
+                </form>
+                <form class="login-form">
+                    <input type="text" placeholder="用户名" value="admin" id="user_name" />
+                    <input type="password" placeholder="密码" id="password" />
+                    <button id="login">登　录</button>
+                    <p class="message">还没有账户? <a href="#">立刻创建</a></p>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

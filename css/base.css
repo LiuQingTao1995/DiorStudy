@@ -1,0 +1,28 @@
+/* ----------reset---------- */
+
+body,h1,h2,h3,h4,h5,h6,img,input,div,ul,ol,li,dl,dt,dd,figure,figcaption,p{
+    padding:0;
+    margin:0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-size:12px;
+    font-family: "微软雅黑";
+}
+img{
+    display: block;
+}
+input{
+    outline: none;
+}
+ul,li{
+    list-style: none;
+}
+header,nav,section,aside,article,footer,main{
+    display: block;
+}
+a{
+    text-decoration: none;
+}

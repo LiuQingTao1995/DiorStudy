@@ -1,0 +1,77 @@
+/* ---------- nav ---------- */
+
+@charset "utf-8";
+	* {
+	margin: 0;
+	padding: 0;
+	font-family: 微软雅黑
+}
+body {
+	min-width: 1200px;
+	font-size: 12px;
+	overflow-x: hidden
+}
+table,td,tr,ul,ol,li,dl,dd,dt,p,input,form,em,p,img,h1,h2,h3,h4,h5 {
+	margin: 0;
+	padding: 0
+}
+h1 {
+	color: #232323
+}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,blockquote,p,span {
+	font-size: 12px
+}
+p {
+	color: #686868
+}
+ul {
+	list-style: none
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+nav {
+	width: 1366px;
+    float: right;
+    border-bottom: 1px solid #e5e5e5;
+}
+nav ul {
+    width: 780px;
+    margin: 0 auto;
+    height: 32px;
+}
+nav li {
+	width: 86px;
+	float: left;
+    text-align: center;
+    height: 32px;
+    margin-top: 10px;
+}
+nav a {
+	width: 86px;
+	height: 32px;
+	display: block;
+    font-size: 14px;
+    color: #000;
+    position: relative;
+}
+nav ul li a:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 0px;
+    height: 3px;
+    opacity: 0;
+    background-color: #000;
+    transition: all .5s;
+}
+nav ul li a:hover:after {
+	left: 1%;
+	right: 1%;
+	opacity: 1;
+	transition: all .5s
+}

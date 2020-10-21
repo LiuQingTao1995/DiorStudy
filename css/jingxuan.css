@@ -1,0 +1,83 @@
+/* ---------- jingxuan ---------- */
+
+#jingxuan{
+    width: 100%;
+    height: 860px;
+    background: #f6f6f6;
+    margin-top: 100px;
+}
+
+#jingxuan .jingxuan_all{
+    width: 1309px;
+    height: 860px;
+    margin: auto;
+}
+
+#jingxuan .jingxuan_all h1{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#jingxuan .jingxuan_all ul{
+    width: 1109px;
+    height: 720px;
+    margin: 10px auto;
+}
+
+#jingxuan .jingxuan_all ul li{
+    width: 320px;
+    height: 100%;
+    float: left;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+#jingxuan .jingxuan_all ul li div{
+    width: 320px;
+    height: 346px;
+}
+
+#jingxuan .jingxuan_all ul li img{
+    width: 100%;
+    height: 100%;
+}
+
+#jingxuan .jingxuan_all ul li p.blod{
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 55px;
+}
+
+#jingxuan .jingxuan_all ul li p.text{
+    font-size: 14px;
+    color: #444;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#jingxuan .jingxuan_all ul li p.price{
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#jingxuan .jingxuan_all ul li button{
+    width: 154px;
+    height: 48px;
+    background: #000;
+    border-radius: 24px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+#jingxuan .jingxuan_all ul li button p a{
+    color: #fff;
+    font-size: 14px;
+}

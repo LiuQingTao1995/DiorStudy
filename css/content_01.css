@@ -1,0 +1,146 @@
+
+/* ---------- content_01 ---------- */
+
+#content_all{
+    margin-top: 100px;
+    height: 1000px;
+}
+
+#content_all .left{
+    width: 775px;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+}
+
+#content_all .left .left_big{
+    width: 775px;
+    height: 513px;
+    overflow: hidden;
+}
+
+#content_all .left .left_big img{
+    width: 100%;
+    height: 100%;
+}
+
+#content_all .left .left_small{
+    width: 372px;
+    height: 412px;
+    float: left;
+    margin-top: 20px;
+}
+
+#content_all .left .left_small.one{
+    margin-right: 30px;
+}
+
+#content_all .left .left_small img{
+    width: 100%;
+    height: 100%;
+}
+
+#content_all .right{
+    width: 490px;
+    height: 100%;
+    float: right;
+    margin-right: 20px;
+}
+
+#content_all .right .right_title{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#content_all .right .right_title h3{
+    font-size: 32px;
+    margin-bottom: 14px;
+    color: #000;
+    font-weight: normal;
+}
+
+#content_all .right .right_title p{
+    font-size: 14px;
+    margin-bottom: 34px;
+    color: #000;
+}
+
+#content_all .right .right_select{
+    width: 445px;
+    height: 87px;
+    margin-top: 100px;
+    margin-left: 25px;
+}
+
+#content_all .right .right_select select{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    background: none;
+    border-radius: 10px;
+}
+
+#content_all .right .right_buy{
+    width: 375px;
+    height: 60px;
+    margin-left: 55px;
+    margin-top: 35px;
+}
+
+#content_all .right .right_buy button{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#content_all .right .right_decoration{
+    width: 100%;
+    height: 523px;
+    margin-top: 30px;
+}
+
+#content_all .right .right_decoration .decoration_up{
+    width: 455px;
+    height: 206px;
+    border: 2px solid #e5e5e5;
+    margin-left: 18px;
+}
+
+#content_all .right .right_decoration .decoration_up div{
+    height: 59px;
+    width: 100%;
+    font-size: 16px;
+    color: #000;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#content_all .right .right_decoration .decoration_up div span{
+    font-size: 25px;
+    color: #000;
+}
+
+#content_all .right .right_decoration .decoration_down{
+    width: 455px;
+    height: 206px;
+    background:  #e5e5e5;
+    margin-left: 18px;
+    margin-top: 30px;
+}
+
+#content_all .right .right_decoration .decoration_down h3{
+    font-size: 16px;
+    color: #000;
+    padding: 15px;
+}
+
+#content_all .right .right_decoration .decoration_down  p{
+    font-size: 14px;
+    color: #000;
+    padding: 15px;
+}
+
