@@ -1,34 +1,30 @@
 function check_login() {
     var name = $("#user_name").val();
     var pass = $("#password").val();
-    if (name == "admin" && pass == "admin") {
+    if (name == "123" && pass == "123") {
         alert("登录成功！");
         $("#user_name").val("");
         $("#password").val("");
     }
     else {
-        $("#login_form").removeClass('shake_effect');
-        setTimeout(function () {
-            $("#login_form").addClass('shake_effect')
-        }, 1);
+        alert("登录失败！");
     }
 }
+
 function check_register() {
     var name = $("#r_user_name").val();
     var pass = $("#r_password").val();
     var email = $("r_email").val();
-    if (name != "" && pass == "" && email != "") {
+    if (name != "" && pass != "" && email != "") {
         alert("注册成功！");
         $("#user_name").val("");
         $("#password").val("");
     }
     else {
-        $("#login_form").removeClass('shake_effect');
-        setTimeout(function () {
-            $("#login_form").addClass('shake_effect')
-        }, 1);
+        alert("注册失败！");
     }
 }
+
 $(function () {
     $("#create").click(function () {
         check_register();
