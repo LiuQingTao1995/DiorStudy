@@ -1,0 +1,38 @@
+{
+    "msg" : "jingxuan",
+    "length" : 1,
+    "data" : [
+        {
+            "id" : "A01",
+            "title" : "迪奥魅惑星钻唇膏",
+            "titleSmall" : "玫瑰小粉钻精华",
+            "imgBig" : "../images/kouhong_01.jpg",
+            "imgSmallLeft" : "../images/kouhong_04.jpg",
+            "imgSmallRight" : "../images/kouhong_05.jpg",
+            "price" : "￥300",
+            "direction" : "魅惑星钻唇膏*，经典星耀色泽，搭配全新星钻唇芯。迪奥幸运星镶嵌于膏体中央，金灿星河细闪，星钻光芒，光彩夺目，闪耀幸运。轻抹间，呈现耀闪色泽，双唇晶润莹亮。膏体散发轻柔麝香调香草气息，融蕴芦荟成分，持久滋润双唇，带来舒适感受。",
+            "size" : "536 幸运星"
+        },
+        {
+            "id" : "A02",
+            "title" : "DIOR BONES 吊坠项链",
+            "titleSmall" : "银质和金属覆层银质",
+            "imgBig" : "../images/xianglian_01.jpg",
+            "imgSmallLeft" : "",
+            "imgSmallRight" : "",
+            "price" : "¥6,700",
+            "direction" : "这款 Dior Bones 吊坠项链为双色设计，结合优雅气质与现代风范。银质链条搭配金属覆层银质和金属覆层银质的骨头吊坠，以金·琼斯的爱犬为主题，揭秘 Yoon Ahn 为 Dior 打造的首个系列。可调节扣环饰以镌刻有“DIOR”的六边形饰牌，便于调节长度。这款项链可与其他 Dior Bones 单品搭配，打造时尚造型。"
+        },
+        {
+            "id" : "A03",
+            "title" : "花秘瑰萃",
+            "titleSmall" : "玫瑰小粉钻精华",
+            "imgBig" : "../images/content_03_01.jpg",
+            "imgSmallLeft" : "../images/content_03_02.jpg",
+            "imgSmallRight" : "../images/content_03_03.jpg",
+            "price" : "¥2,100",
+            "direction" : "迪奥玫瑰小粉钻精华*，融蕴格兰维尔玫瑰双重珍萃力量，深彻修护，焕活年轻肌肤。全新倾注花茎赋活珍萃****，帮助焕新肌肤*****，层层构筑*****致密「肌」础。迪奥全新配方，融蕴源自天然成分，蕴含2倍浓度***，赋活10000**粒超微凝珠，如精华油般润养，如精华液般渗透。"
+        }
+    ]
+}
+

@@ -39,8 +39,8 @@ $.ajax({
                     </select>
                 </div>
 
-                <div class="right_buy">
-                    <button myid="${item.id}">立即购买</button>
+                <div class="right_buy" myid="${item.id}">
+                    <button>立即购买</button>
                 </div>
 
                 <div class="right_decoration">
@@ -68,7 +68,7 @@ $.ajax({
     }
 })
 
-$('body').on('click', 'button',function(){
+$('body').on('click', '.right_buy',function(){
     //console.log($(this).attr('myid'));
     var id = $(this).attr('myid');
     //localStorage.setItem('goods','[{"id":"A01","num":"1"}]')
