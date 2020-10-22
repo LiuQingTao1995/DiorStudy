@@ -1,27 +1,19 @@
 
 $.ajax({
-    url : '../data/goods_3.json',
-    type : 'get',
-    dataType : 'json',
-    success: function(json){
+    url: '../data/goods_2.json',
+    type: 'get',
+    dataType: 'json',
+    success: function (json) {
         //console.log(json.data);
         var str = '';
-        $.each(json.data,function(index,item){
+        $.each(json.data, function (index, item) {
             //console.log(item);
             //console.log(index[1]);
-            
+
             str += `
             <div class="left">
             <div class="left_big">
                 <img src="${item.imgBig}">
-            </div>
-
-            <div class="left_small one">
-                <img src="${item.imgSmallLeft}" alt="">
-            </div>
-
-            <div class="left_small">
-                <img src="${item.imgSmallRight}" alt="">
             </div>
         </div>
 
@@ -36,7 +28,7 @@ $.ajax({
             </div>
 
             <div class="right_buy">
-                <button>立即购买</button>
+                <button myid="${item.id}">立即购买</button>
             </div>
 
             <div class="right_decoration">
@@ -64,10 +56,34 @@ $.ajax({
     }
 })
 
+$('body').on('click', 'button',function(){
+    //console.log($(this).attr('myid'));
+    var id = $(this).attr('myid');
+    //localStorage.setItem('goods','[{"id":"A01","num":"1"}]')
+    if(localStorage.getItem('goods')){
+        var goodsArr = JSON.parse(localStorage.getItem('goods'));
+    }
+    else{
+        var goodsArr = [];
+    }
 
+    var flag = false;
+    $.each(goodsArr,function(index,item){
+        if(item.id == id){
+            item.num++;
+            flag = true;
+            return false;
+        }
+    })
 
+    if(!flag){
+        var pushObj = {"id":id,"num":1};
+        goodsArr.push(pushObj);
+    }
 
-
+    localStorage.setItem('goods',JSON.stringify(goodsArr));
+    alert('加入购物车成功');
+});
 
 
 
