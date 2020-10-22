@@ -1,27 +1,19 @@
 
 $.ajax({
-    url : '../data/goods.json',
-    type : 'get',
-    dataType : 'json',
-    success: function(json){
+    url: '../data/goods_2.json',
+    type: 'get',
+    dataType: 'json',
+    success: function (json) {
         //console.log(json.data);
         var str = '';
-        $.each(json.data,function(index,item){
+        $.each(json.data, function (index, item) {
             //console.log(item);
             //console.log(index[1]);
-            
+
             str += `
             <div class="left">
             <div class="left_big">
                 <img src="${item.imgBig}">
-            </div>
-
-            <div class="left_small one">
-                <img src="${item.imgSmallLeft}" alt="">
-            </div>
-
-            <div class="left_small">
-                <img src="${item.imgSmallRight}" alt="">
             </div>
         </div>
 
@@ -32,11 +24,7 @@ $.ajax({
             </div>
 
             <div class="right_select">
-                <select>
-                    <option value="620 肉桂奶茶 ￥330">620 肉桂奶茶 ￥330</option>
-                    <option value="482 星河玫瑰">482 星河玫瑰 ￥330</option>
-                    <option value="opel">669 星钻蜜桃 ￥330</option>
-                </select>
+                <h2 style="text-align: center; font-size: 20px;">${item.price}</h2>
             </div>
 
             <div class="right_buy">

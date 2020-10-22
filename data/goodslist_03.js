@@ -1,6 +1,6 @@
 
 $.ajax({
-    url : '../data/goods.json',
+    url : '../data/goods_3.json',
     type : 'get',
     dataType : 'json',
     success: function(json){
@@ -32,11 +32,7 @@ $.ajax({
             </div>
 
             <div class="right_select">
-                <select>
-                    <option value="620 肉桂奶茶 ￥330">620 肉桂奶茶 ￥330</option>
-                    <option value="482 星河玫瑰">482 星河玫瑰 ￥330</option>
-                    <option value="opel">669 星钻蜜桃 ￥330</option>
-                </select>
+                <h2 style="text-align: center; font-size: 20px;">${item.price}</h2>
             </div>
 
             <div class="right_buy">
@@ -67,3 +63,12 @@ $.ajax({
         $('#content_all').html(str);
     }
 })
+
+
+
+
+
+
+
+
+
